@@ -1,0 +1,30 @@
+{
+  "name": "backend-sample",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix"
+  },
+  "keywords": [],
+  "author": "mohib",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "express": "^4.21.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.19.0",
+    "eslint": "^9.19.0",
+    "globals": "^15.14.0",
+    "nodemon": "^3.1.9"
+  }
+}
